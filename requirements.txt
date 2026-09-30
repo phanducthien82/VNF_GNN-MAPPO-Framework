@@ -1,0 +1,36 @@
+# Python
+# Recommended: Python 3.11.x
+
+# Numerical / scientific
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.2
+networkx==3.4.2
+
+# Deep learning
+torch==2.6.0
+torchvision==0.21.0
+
+# Graph neural networks
+torch-geometric==2.6.1
+
+# Experiment utilities
+matplotlib==3.10.1
+tqdm==4.67.1
+
+# Optional analysis utilities
+scikit-learn==1.6.1
+
+# IMPORTANT:
+# PyTorch installation is platform/CUDA dependent.
+# For GPU training, install the appropriate PyTorch wheel for the
+# target CUDA runtime from the official PyTorch installation page,
+# then install/verify the remaining packages.
+#
+# For exact environment capture on the experiment machine:
+#   python --version
+#   pip freeze > requirements-lock-generated.txt
+#
+# The pinned versions above are the recommended reproducibility
+# specification for the R6 repository; the generated freeze file
+# should be retained if bit-level environment reproduction is required.

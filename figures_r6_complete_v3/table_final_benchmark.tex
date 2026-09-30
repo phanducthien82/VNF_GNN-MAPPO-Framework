@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Final performance over five independent seeds and 600 test requests per seed. Values are mean $\pm$ sample standard deviation.}
+\label{tab:final_benchmark}
+\begin{tabular}{lrrrrrr}
+\hline
+Method & Acceptance (\%) & Violation & Energy (J) & Latency (ms) & P95 (ms) & Unique nodes \\
+\hline
+MAPPO-GNN & 76.27 $\pm$ 7.14 & 0.19823 $\pm$ 0.10275 & 25.708 $\pm$ 3.481 & 23.524 $\pm$ 1.329 & 28.654 $\pm$ 1.682 & 4.404 $\pm$ 0.359 \\
+MAPPO-No-GNN & 77.87 $\pm$ 7.67 & 0.17817 $\pm$ 0.07288 & 25.247 $\pm$ 2.935 & 22.385 $\pm$ 1.288 & 28.187 $\pm$ 1.617 & 4.086 $\pm$ 0.104 \\
+SA-PPO & 90.67 $\pm$ 4.07 & 0.06673 $\pm$ 0.03856 & 26.780 $\pm$ 1.337 & 20.251 $\pm$ 1.119 & 26.034 $\pm$ 1.734 & 3.860 $\pm$ 0.399 \\
+Greedy & 97.60 $\pm$ 1.09 & 0.01090 $\pm$ 0.00546 & 32.352 $\pm$ 0.519 & 14.354 $\pm$ 0.041 & 18.781 $\pm$ 0.352 & 2.371 $\pm$ 0.041 \\
+Least-Loaded & 81.97 $\pm$ 5.68 & 0.13369 $\pm$ 0.06164 & 23.996 $\pm$ 1.151 & 22.338 $\pm$ 0.746 & 28.100 $\pm$ 1.251 & 4.829 $\pm$ 0.041 \\
+Random & 78.53 $\pm$ 4.28 & 0.15632 $\pm$ 0.03888 & 25.061 $\pm$ 1.267 & 23.636 $\pm$ 0.754 & 29.186 $\pm$ 1.524 & 4.580 $\pm$ 0.020 \\
+\hline
+\end{tabular}
+\end{table}

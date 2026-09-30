@@ -1,0 +1,23 @@
+{
+  "eval_seed": 200022,
+  "requests": 600,
+  "joint_feasibility": 0.665,
+  "accepted_request_rate": 0.665,
+  "accepted_requests_total": 399,
+  "rejected_requests_total": 201,
+  "joint_feasible_requests_total": 399,
+  "feasible_but_rejected_total": 0,
+  "infeasible_but_accepted_total": 0,
+  "feasibility_acceptance_gap": 0.0,
+  "mean_constraint_violation": 0.35936180101801357,
+  "mean_energy_J": 21.347340245179527,
+  "mean_latency_ms": 24.656879645077183,
+  "p95_latency_ms": 29.96883170352758,
+  "mean_unique_nodes": 4.84,
+  "mean_pairwise_policy_diff": 0.026280220563232436,
+  "mean_agent_entropy": 2.757874657467008,
+  "mask_relaxed_decisions": 0,
+  "method": "MAPPO-GNN",
+  "source_seed": 22,
+  "test_seed": 200022
+}

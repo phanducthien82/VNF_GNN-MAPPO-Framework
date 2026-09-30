@@ -1,0 +1,30 @@
+{
+  "version": "R6-unified-SAPPO",
+  "method": "SA-PPO",
+  "seed": 22,
+  "best_episode": 100,
+  "validation_seed": 100022,
+  "validation_requests": 30,
+  "selection_rule": "lexicographic: feasibility, acceptance, lower latency, lower energy",
+  "best_validation": {
+    "eval_seed": 100022,
+    "requests": 30,
+    "joint_feasibility": 1.0,
+    "accepted_request_rate": 1.0,
+    "accepted_requests_total": 30,
+    "rejected_requests_total": 0,
+    "joint_feasible_requests_total": 30,
+    "feasible_but_rejected_total": 0,
+    "infeasible_but_accepted_total": 0,
+    "feasibility_acceptance_gap": 0.0,
+    "mean_constraint_violation": 0.0,
+    "mean_energy_J": 29.538014085871716,
+    "mean_latency_ms": 18.26332001911199,
+    "p95_latency_ms": 23.5280650122433,
+    "mean_unique_nodes": 2.966666666666667,
+    "mean_pairwise_policy_diff": 0.007569425788387887,
+    "mean_agent_entropy": 2.7223969316482552,
+    "mask_relaxed_decisions": 0,
+    "method": "SA-PPO"
+  }
+}

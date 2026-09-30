@@ -1,0 +1,29 @@
+{
+  "version": "R6-unified",
+  "encoder_type": "gnn",
+  "seed": 55,
+  "best_episode": 450,
+  "validation_seed": 100055,
+  "validation_requests": 30,
+  "selection_rule": "lexicographic: feasibility, acceptance, lower latency, lower energy",
+  "best_validation": {
+    "eval_seed": 100055,
+    "requests": 30,
+    "joint_feasibility": 1.0,
+    "accepted_request_rate": 1.0,
+    "accepted_requests_total": 30,
+    "rejected_requests_total": 0,
+    "joint_feasible_requests_total": 30,
+    "feasible_but_rejected_total": 0,
+    "infeasible_but_accepted_total": 0,
+    "feasibility_acceptance_gap": 0.0,
+    "mean_constraint_violation": 0.0,
+    "mean_energy_J": 29.784722202489174,
+    "mean_latency_ms": 23.708114756087525,
+    "p95_latency_ms": 27.856561325724183,
+    "mean_unique_nodes": 4.366666666666666,
+    "mean_pairwise_policy_diff": 0.03824541611150683,
+    "mean_agent_entropy": 2.531106680234273,
+    "mask_relaxed_decisions": 0
+  }
+}

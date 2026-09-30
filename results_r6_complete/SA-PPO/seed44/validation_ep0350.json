@@ -1,0 +1,21 @@
+{
+  "eval_seed": 100044,
+  "requests": 30,
+  "joint_feasibility": 0.8,
+  "accepted_request_rate": 0.8,
+  "accepted_requests_total": 24,
+  "rejected_requests_total": 6,
+  "joint_feasible_requests_total": 24,
+  "feasible_but_rejected_total": 0,
+  "infeasible_but_accepted_total": 0,
+  "feasibility_acceptance_gap": 0.0,
+  "mean_constraint_violation": 0.04125110132232514,
+  "mean_energy_J": 29.74416381773538,
+  "mean_latency_ms": 20.42134207514075,
+  "p95_latency_ms": 25.431654106120135,
+  "mean_unique_nodes": 2.8,
+  "mean_pairwise_policy_diff": 0.015784760279930195,
+  "mean_agent_entropy": 2.513094099362691,
+  "mask_relaxed_decisions": 0,
+  "method": "SA-PPO"
+}
